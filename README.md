@@ -39,9 +39,14 @@ The system employs a multi-layered architecture for reliable data collection and
 The core logic for energy optimization is managed by a state machine that adapts behavior based on battery levels and environmental changes.
 ![FSM Diagram](images/Adaptive_Algorithm_FSM.png)
 
-### Power Consumption Analysis
-Empirical results demonstrate the effectiveness of the proposed optimization methods across different protocols.
-![Power Consumption Results](images/Power_Consumption_Results.png)
+### Power Consumption & Autonomy Analysis
+Empirical results demonstrate the effectiveness of the proposed optimization methods across different communication protocols. The research includes both raw power consumption measurements and real-world autonomy estimations based on a standard 1000 mAh battery capacity.
+
+![Power Consumption Results](images/Power_Consumption_Results.jpg)
+*Table 1: Power consumption metrics across different protocols and operational states.*
+
+![Battery Autonomy Estimations](images/Battery_Autonomy_Estimations.jpg)
+*Table 2: Estimated autonomous operation time (in hours and days) using a 1000 mAh power source.*
 
 ## Repository Contents
 * `/src/` — Contains 12 project folders following the `v2.X.Y` convention.
